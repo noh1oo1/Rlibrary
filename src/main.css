@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-family: "font-family: Pretendard,sans-serif;";
+  color: #091634;
+}
+
+body {
+  /* background-color: #111c33; */
+  /* padding-top: 60px; */
+  /* background-color: #f5fcfa; */
+}
+
+.inner {
+  width: 1548px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+button:focus{ 	
+  border: none;
+  outline:none;
+  }

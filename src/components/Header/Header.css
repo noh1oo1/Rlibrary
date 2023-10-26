@@ -1,0 +1,11 @@
+.header-wrap {
+  width: 100%;
+  background-color: rgba(17, 24, 39, 0.258);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-bottom: 0 solid #e5e7eb;
+  /* border-bottom: 1px solid #fff; */
+}

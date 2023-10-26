@@ -1,0 +1,31 @@
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+
+input:focus {outline: none;}
+
+.search{
+	width: 50%;
+	margin: 40px auto;
+	position: relative;
+
+}
+
+.search input{
+	height: 60px;
+	padding-left: 30px;
+	width: 100%;
+	border-radius: 33px;
+	background: #f2f2f2;
+	border:2px solid #f2f2f2;
+}
+
+.search input:hover {
+	box-shadow: rgba(33, 35, 38, 0.2) 0px 10px 10px -10px;
+}
+
+.search i{
+	position: absolute;
+	top: 18px;
+	right: 29px;
+	font-size: 25px;
+	color: dodgerblue;
+}
